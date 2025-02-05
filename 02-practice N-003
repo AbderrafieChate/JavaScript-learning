@@ -1,0 +1,41 @@
+<!-- 
+Print this message in the console : Developer CHATE Abderrafie
+Translate this styles to be styled in JavaScript :
+    Developer : 
+        color: red;
+        font-size: 40px;
+    CHATE : 
+        color: green;
+        font-size: 40px;
+        font-weight: bold;
+    Abderrafie : 
+        color: white;
+        font-size: 40px;
+        background-color: blue;
+-->
+
+
+
+HTML : 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script src="03-main.js"></script>
+</body>
+</html>
+
+
+
+JS : 
+
+console.log("%cDeveloper %cCHATE %cAbderrafie",
+        "color: red; font-size: 40px",
+        "color: green; font-size: 40px; font-weight: bold",
+        "color: white; font-size: 40px; background-color: blue");
