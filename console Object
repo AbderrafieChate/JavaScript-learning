@@ -1,0 +1,13 @@
+/*
+Console : is an object in JavaScript
+that provides access to the debugging
+console in browsers or the terminal
+*/
+// Some of console Object methods : 
+
+// Create a table by .table() Method :
+console.table(["Abderrafie", "Yaakoub", "Ahmed"]);
+
+// Create a Message by .log() Method :
+console.log("%cI'm a Web Developer", "color: blue; font-size: 20px")
+
