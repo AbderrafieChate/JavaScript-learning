@@ -9,5 +9,4 @@ console in browsers or the terminal
 console.table(["Abderrafie", "Yaakoub", "Ahmed"]);
 
 // Create a Message by .log() Method :
-console.log("%cI'm a Web Developer", "color: blue; font-size: 20px")
-
+console.log("%cI'm a Web Developer", "color: blue; font-size: 20px") 
