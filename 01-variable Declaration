@@ -1,0 +1,18 @@
+Compare LET , VAR and CONST in the syntaxe of variable declaration on JS : 
+
+
+var : 
+    redeclare : Yes 
+    Access Before declare : No => Undefined
+    Note : 
+        Every variable created by VAR, exemple ( var nameVariable = "Value" )
+        put in the window object - check it in the console.
+        
+
+let : 
+    redeclare : No => Error
+    Access Before declare : No => Error
+
+const : 
+    redeclare : No => Error
+    Access Before declare : No => Error
