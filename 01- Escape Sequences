@@ -1,0 +1,18 @@
+Like any other Programming Language, We use in JavaScript some Escape Sequences to skip any specific symbol ( "" , '' , \ , / ...), to use them as a Normal string.
+
+
+\n - Newline
+
+\\ - Backslash
+
+\' - Single quote
+
+\" - Double quote
+
+\b - Backspace
+
+\r - Carriage return
+
+\f - Form feed
+
+\v - Vertical tab (rarely used)
