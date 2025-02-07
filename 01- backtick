@@ -1,0 +1,16 @@
+The BackTick `` a prefered to use in the JS moderne, cause it offre many Abbreviations than "" or '' :
+
+
+Backticks :
+    String Interpolation =>  Yes (with ${})
+    Multi-line Strings =>    Yes
+    Embedding Expressions	=> Yes
+    Tagged Templates =>      Yes
+
+
+Quotes "" and '' :
+    String Interpolation =>  No
+    Multi-line Strings =>    no (Should use \n )
+    Embedding Expressions	=> No
+    Tagged Templates =>      Often needed
+
