@@ -1,0 +1,37 @@
+/*
+The goal of this Concatenate practice exercice: (+)
+is to know the difference between :
+Normal Concatenate and Concatenate by Template Literals. Let's do it ;)
+*/
+
+
+let NumberOne = 10;
+let NumberTwo = 20;
+
+
+// Normal Concatenate :
+console.log( NumberOne.toString() + NumberTwo.toString() )
+// result : 1020
+
+// Concatenate by Template Literals : best 
+console.log(`${NumberOne}${NumberTwo}`)
+// result : 1020
+
+
+
+// Normal Concatenate :
+console.log(NumberOne + "\n" + 
+    NumberTwo)
+// result : 10
+//          20
+
+// Concatenate by Template Literals : best 
+console.log(`
+    ${NumberOne}
+    ${NumberTwo}
+    `)
+// result : 10
+//          20
+
+
+
