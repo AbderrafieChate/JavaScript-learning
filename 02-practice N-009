@@ -1,0 +1,13 @@
+/*
+Use Template Leterals to Print this result in the console :
+result nust be : 
+_25_2025_2025_2025_20_
+*/
+
+
+// JS code :
+
+let a = 25;
+let b = 20;
+
+console.log(`_${a}_${b}${a}_${b}${a}_${b}${a}_${b}_`)
