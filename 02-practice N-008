@@ -1,0 +1,28 @@
+/*
+The goal of this Practice exercice is :
+know the difference between backTicks:`` ,and normal way of ",' .
+
+PRINT THIS MESSAGE USING THE YWO WAYS:
+
+`I'm In
+\\
+Love \\ """ '''
+++ With ++
+\"""\"""
+""JavaScript""``
+
+*/
+
+
+// without using backTicks : 
+console.log("`I'm In \n \\\\ \n Love \\\\ \"\"\" \'\'\' \n \+\+ With \+\+ \n \\\"\"\"\\\"\"\" \n \"\"JavaScript\"\"\`\`")
+
+
+// Using backTicks : easier
+console.log(`${"`I'm In"}
+${"\\\\"}
+${"Love \\\\ \"\"\" \'\'\'"}
+${"\+\+ With \+\+"}
+${"\\\"\"\"\\\"\"\""}
+${"\"\"JavaScript\"\"\`\`"}
+`)
