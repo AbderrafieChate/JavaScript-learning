@@ -3,7 +3,7 @@ innerHTML : Is a property in DOM, that allows you to get and set the HTML conten
 typeof : Is an operator in JS that tells you the type of a value or variable.
 
 In this Practice we'll learn the Syntaxe of innerHTML and typeof
-
+ 
 */
 
 
