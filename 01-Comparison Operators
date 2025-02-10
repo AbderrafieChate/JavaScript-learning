@@ -1,0 +1,34 @@
+/*
+The Comparaison operators of JavaScript, always return a boolean (True/False)
+We have : ( == , === , != , !== , < , > , <= , >= )
+
+== : Loose Equality 
+    exemple : 7 == 7;    // true
+              7 == '7';  // true 
+
+=== : Strict Equality
+    exemple : 7 === 7;    // true
+              7 === '7';  // false 
+
+!= : Loose Equality 
+    exemple : 7 != 9;    // true
+              7 != '7';  // false 
+
+!== : Strict Equality 
+    exemple : 7 !== 9;    // true
+              7 !== '7';  // true
+
+*/
+
+// EXEMPLE :
+
+let A = 10
+let B = 20
+
+console.log(A == B)
+
+
+let Y = '77'
+let Z = 77
+
+console.log(Y == Z) 
