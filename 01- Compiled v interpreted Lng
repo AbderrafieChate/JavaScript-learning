@@ -1,0 +1,19 @@
+/*
+In programming, languages are often categorized as either
+compiled or interpreted :
+
+
+Compiled Language : 
+    Examples : C , C++ ...
+    Execution : Directly executed as machine code
+    Performence : Faster
+    Debugging : Harder
+
+
+Interpreted Language : 
+    Examples : Python , JavaScript ...
+    Execution : Executed line by line By an interpreter
+    Performence : Slower
+    Debugging : Easier
+
+*/
