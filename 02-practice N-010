@@ -1,0 +1,25 @@
+/*
+In this Practice. using just the variable "num" value and bolean value
+calcul the resul to be equal to = 6
+NOTE // do not use any number
+*/
+
+let num = 3;
+
+// Solution One
+console.log(num + num); // 6
+
+// Solution Two
+console.log(num * (true + true)); // 6
+
+// Soultion Three
+console.log(num ** (true + true) - num); // 6
+
+// Soultion Four
+console.log((false * true) + num + num); // 6
+
+// Solution Five
+console.log(((true + true)** true) * num ); // 6
+
+// Solution Six
+console.log(num + num + num - (true + true + true)); // 6
