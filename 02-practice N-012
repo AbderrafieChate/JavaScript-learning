@@ -1,0 +1,57 @@
+/*
+In this Practice we will learn some date or Time's Methods :
+like : 
+
+.getTime()
+.toISOstring()
+.getDate()
+.getDay()
+.getFullYear()
+.getHours()
+.getMinutes()
+
+*/
+
+
+// .getTime() =>(look like a crazy Method) return the Milliseconds since January 1, 1970
+const d = new Date("2025-02-13");
+t = d.getTime();
+console.log(t)
+
+
+// .toISOstring() => return a date in ISO version
+// What is ISO version of date ?
+// exemple of ISO version :  2020-03-15T00:00:00.000Z
+let d_v1 = new Date(prompt("Entrer une date [ex 2020-03-15] : "));
+let d_v2 = d_v1.toISOString();
+console.log(d_v2)
+
+
+// .getDate() return day of month [1-31]
+let T = new Date("2020-03-15")
+let Tv2 = T.getDate()
+console.log(Tv2) //result : 15
+
+
+// .getDay() return day of week [0-6]
+let T = new Date("2020-03-15")
+let Tv2 = T.getDay()
+console.log(Tv2) //result : 0 (that mean : Sunday) 
+
+
+// .getFullYear() return a year [YYYY]
+let T = new Date("2020-03-15")
+let Tv2 = T.getFullYear()
+console.log(Tv2) //result : 2020 
+
+
+// .getHours() return an Hour [00-23]
+let T = new Date("2020-03-15 12:00")
+let Tv2 = T.getHours()
+console.log(Tv2) //result : 12
+
+
+// .getMinutes() return an Hour [00-59]
+let T = new Date("2020-03-15 12:30")
+let Tv2 = T.getMinutes()
+console.log(Tv2) //result : 30
